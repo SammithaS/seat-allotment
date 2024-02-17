@@ -1,0 +1,114 @@
+.body {
+  background-size:cover;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: backgroundAnimation 10s ease-in-out infinite;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  width: 90%; /* Adjust width */
+  max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inputs {
+  display: flex;
+  margin-top: 25px; /* Adjust margin */
+  flex-direction: column;
+  gap: 20px; /* Adjust gap */
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%; /* Adjust width */
+  max-width: 480px;
+  height: 60px; /* Adjust height */
+  background: #eaeaea;
+  border-radius: 6px;
+  font-size: 14px; /* Adjust font size */
+  padding: 0 10px; /* Adjust padding */
+}
+
+.input img {
+  margin: 0 15px; /* Adjust margin */
+}
+
+.input input {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px; /* Adjust font size */
+}
+
+.submit-container {
+  display: flex;
+  gap: 20px; /* Adjust gap */
+  margin: 30px auto; /* Adjust margin */
+  justify-content: center;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  color: #fff;
+  background: teal;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-image: url("https://daijiworld.ap-south-1.linodeobjects.com/iWeb/tvdaijiworld/images9/asha_2320_nitte21.jpg");
+  }
+  50% {
+    background-image: url("https://images.shiksha.com/mediadata/images/1586342664phplqnq18.jpeg");
+  }
+  100% {
+    background-image: url("https://collegekeeda.com/wp-content/uploads/2024/02/NMAM-Institute-of-Technology.webp");
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 0px;
+}
+.text {
+  color: teal;
+  font-size: 34px;
+  font-weight: 700;
+}
+.underline {
+  width: 100px;
+  height: 6px;
+  background: teal;
+  border-radius: 9px;
+}
+
